@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Style Placement
+        </title>
+        <link rel ="stylesheet" href="style.css">
+        <style>
+            h2{
+                color:maroon;
+            }
+            .style{
+                font-family:Arial, Helvetica, sans-serif;
+                color : #0000ff;
+                font-size: 16px;
+                font-weight: 800;
+                font-style: oblique;
+                text-transform: capitalize;
+                
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>Style Placement + Styling Text + Conflict Resolution </h1>
+        <h2>HTML</h2>
+        <p class = "style"; style = "color:green;">The Hyper Text Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. HTML provides a means to create structured documents by denoting structural semantics for text such as headings,paragraphs,lists,links,Quotes and other items.</p>
+        <h2>CSS</h2>
+        <p style = "text-align: center; color:black;">CSS is the language we use to style an HTML document.CSS describes how HTML elements should be displayed. There are three types of CSS which are given below:</p>  
+        <div>Regular Text</div>
+        <div style ="font-size: 2em;">2em text
+            <div style ="font-size: 2em;">4em text
+                <div style = "font-size: .5em;">2em again
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
