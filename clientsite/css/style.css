@@ -1,0 +1,131 @@
+body{
+  font-size: 16px;
+  color:black;
+  background-color:rgb(216, 216, 172);
+  font-family: 'Oxygen',sans-serif;
+
+}
+h3{
+  text-align:center;
+}
+
+.box {
+  border: 2px solid black;
+  padding: 0 10px 10px 10px;
+  margin: 10px;
+  overflow: hidden;
+}
+
+ 
+#box1{
+  background-color:rgb(109, 197, 197);
+}
+
+#box2{
+  background-color: rgb(172, 172, 76);
+}
+
+#box3{
+  background-color: rgb(202, 62, 62);
+}
+
+.heading{
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.content{
+  box-sizing: border-box;
+}
+
+.content p{
+ text-align: justify;
+}
+
+#header-nav{ /*Header*/
+  background-color:rgb(202, 151, 151);
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand{
+  padding-top: 25px;
+}
+
+.navbar-brand h1{ /* Restaurant name*/
+  font-family: 'Lora',serif;
+  color:#557c3e;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+#nav-list{
+  margin-top: 10px;
+}
+#nav-list a{
+  color: #951c49;
+  text-align: center;
+}
+#nav-list a:hover{
+  background: #E7E7E7;
+}
+#nav-list a span{
+  font-size: 1.8em;
+}
+
+button.navbar-toggler, .navbar-toggler-icon {
+  border: 1px solid #61122f;
+}
+
+button.navbar-toggler {
+  clear: both;
+  margin-top: -30px; 
+}
+
+/* END HEADER */
+
+
+
+/*************Large Screen ***********/
+@media (min-width: 1200px){
+}
+
+/*************Medium Screen ******* ****/
+@media (min-width: 992px) and (max-width:1199px){
+
+}
+
+/*************Small Screen ***********/
+@media (min-width: 768px) and (max-width:991px){
+
+}
+
+/*************Extra Small Screen ***********/
+@media (max-width:767px){
+  .navbar-brand{
+    padding-top: 10px;
+    height: 80px;
+  }
+  
+  .navbar-brand h1{ 
+    padding-top: 10px;
+    font-size: 5vw;
+  }
+
+  #collapsable-nav a{
+    font-size: 1.2em;
+  }
+
+  #collapsable-nav a span{
+    font-size: 1em;
+    margin-right: 5px;
+  }
+  .navbar-brand h1{
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+}
