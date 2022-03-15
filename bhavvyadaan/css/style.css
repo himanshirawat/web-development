@@ -1,0 +1,22 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#canvas{
+    background: url('../image/logo.png') top center no-repeat ;
+    width: 550px;
+    margin-top: -30px;
+} 
+.form-label:before{
+    content: "*";
+    color:red;
+}
+#section1{
+    font-size: 14px;
+}
+
+body #box{
+    box-sizing: border-box;
+    margin: 25px;
+    width: 500px;
+}
