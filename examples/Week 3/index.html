@@ -37,14 +37,14 @@
                     <div id="collapsable-nav" class="collapse navbar-collapse in" >
 
                         <ul id="nav-list" class=" navbar-nav navbar-right">
-                            <li class="d-block d-sm-none nav-item">
+                            <li id= "navHomeButton" class="d-block d-sm-none nav-item">
                                 <a href="index.html" class=" nav-link active" arian-current="page">
                                     <span class="glyphicon glyphicon-home"></span>
                                  Home
                                 </a>
                             </li>
-                            <li>
-                                <a href="menu-categories.html" class=" nav-link " arian-current="page">
+                            <li id="navMenuButton">
+                                <a href="#" onclick="$dc.loadMenuCategories();" class=" nav-link " arian-current="page">
                                     <span class="glyphicon glyphicon-cutlery"></span>
                                     <br class="d-none d-sm-block"> Menu
                                 </a>
@@ -86,7 +86,10 @@
         <div id="xs-deliver" class=" text-center d-md-none">*We Deliver</div>
        
        
-        <div id="main-content" class="container"></div>
+        <div id="main-content" class="container">
+            
+        </div>
+
         
         <footer class="panel-footer">
             <div  class="contatiner">
@@ -117,10 +120,9 @@
        
        
        
-       
-        <script src="js/ajax-utils.js"></script>
         <script src="js/jquery/dist/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/ajax-utils.js"></script>
         <script src="js/script.js"></script>
     </body>
 </html>
